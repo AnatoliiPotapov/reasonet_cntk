@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime
 import math
 from cntk import Trainer, Axis, device, combine
-from cntk.layers.blocks import Stabilizer, _initializer_for,  _INFERRED, Parameter, Placeholder
+from cntk.layers.blocks import Stabilizer, _initializer_for,  _INFERRED, Parameter
 from cntk.layers import Recurrence, Convolution, Dense
 from cntk.ops import input, sequence, reduce_sum, \
     parameter, times, element_times, plus, placeholder, reshape, constant, sigmoid, convolution, tanh, times_transpose, greater, element_divide, element_select, exp
